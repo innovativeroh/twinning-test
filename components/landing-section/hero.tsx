@@ -84,12 +84,6 @@ const HeroSection = () => {
                 >
                   {/* Chrome, Edge, Firefox */}
                   <source src="/videos/output.webm" type="video/webm" />
-                  {/* Safari macOS + iOS */}
-                  <source
-                    src="/videos/render_2.mov"
-                    type='video/mp4; codecs="hvc1"'
-                  />
-                  Your browser does not support the video tag.
                 </video>
               </motion.div>
             </motion.div>
